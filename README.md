@@ -1,4 +1,4 @@
 # apothecary-satchel
-Filter and search all ingredients in The Elder Scrolls V: Skyrim
+Filter and search all ingredients and effects in The Elder Scrolls V: Skyrim
 
 https://apothecary-satchel.streamlit.app/
