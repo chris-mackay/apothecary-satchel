@@ -16,17 +16,7 @@ game = st.radio(
 
 if game == "The Elder Scrolls V: Skyrim":
     df = pd.read_csv("https://raw.githubusercontent.com/chris-mackay/apothecary-satchel/refs/heads/main/data_skyrim.csv")
-
     search_str = st.text_input("Filter ingredients", "")
-
-    values = st.slider("Select a value range", 0.0, 15.0, (0.0, 15.0))
-    st.write("Value range", values)
-
-    weights = st.slider("Select a weight range", 0.0, 0.5, (0.0, 0.5))
-    st.write("Weight range", weights)
-
-    df = df[df["Value"].between(values[0], values[1])]
-    df = df[df["Weight"].between(weights[0], weights[1])]
 elif game == "The Elder Scrolls IV: Oblivion":
     df = pd.read_csv("https://raw.githubusercontent.com/chris-mackay/apothecary-satchel/refs/heads/main/data_oblivion.csv")
     search_str = st.text_input("Filter ingredients", "")
