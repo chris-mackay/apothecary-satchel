@@ -3,11 +3,11 @@ import pandas as pd
 from io import StringIO
 
 st.title('Apothecary Satchel')
-st.write('Filter and search all ingredients and effects in The Elder Scrolls V: Skyrim and The Elder Scrolls Online')
+st.write('Filter and search all ingredients and effects in the following Elder Scrolls games')
 
-st.link_button("UESP Skyrim", "https://en.uesp.net/wiki/Skyrim:Ingredients")
-st.link_button("UESP Oblivion", "https://en.uesp.net/wiki/Oblivion:Ingredients")
-st.link_button("ESO HUB", "https://eso-hub.com/en/alchemy-reagents-and-solvents")
+st.link_button("The Elder Scrolls V: Skyrim", "https://en.uesp.net/wiki/Skyrim:Ingredients")
+st.link_button("The Elder Scrolls IV: Oblivion", "https://en.uesp.net/wiki/Oblivion:Ingredients")
+st.link_button("The Elder Scrolls Online", "https://eso-hub.com/en/alchemy-reagents-and-solvents")
 
 game = st.radio(
     "Select game to view ingredients",
