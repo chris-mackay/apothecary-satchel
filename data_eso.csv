@@ -1,0 +1,35 @@
+Ingredient,PrimaryEffect,SecondaryEffect,TertiaryEffect,QuaternaryEffect
+Beetle Scuttle,Breach,Increase Armor,Protection,Vitality
+Blessed Thistle,Ravage Health,Restore Stamina,Increase Weapon Power,Speed
+Blue Entoloma,Restore Health,Ravage Magicka,Cowardice,Invisible
+Bugloss,Restore Health,Restore Magicka,Increase Spell Resist,Cowardice
+Butterfly Wing,Restore Health,Uncertainty,Lingering Health,Vitality
+Chaurus Egg,Ravage Magicka,Restore Stamina,Detection,Timidity
+Clam Gall,Increase Spell Resist,Hindrance,Vulnerability,Defile
+Columbine,Restore Health,Restore Magicka,Restore Stamina,Unstoppable
+Corn Flower,Ravage Health,Restore Magicka,Increase Spell Power,Detection
+Crimson Nirnroot,Restore Health,Spell Critical,Gradual Ravage Health,Timidity
+Dragon Rheum,Restore Magicka,Enervation,Speed,Heroism
+Dragon's Bile,Invisible,Vulnerability,Vitality,Heroism
+Dragon's Blood,Restore Stamina,Lingering Health,Defile,Heroism
+Dragonthorn,Restore Stamina,Fracture,Increase Weapon Power,Weapon Critical
+Emetic Russula,Ravage Health,Ravage Magicka,Ravage Stamina,Entrapment
+Fleshfly Larva,Ravage Stamina,Vulnerability,Gradual Ravage Health,Vitality
+Imp Stool,Ravage Stamina,Increase Armor,Maim,Enervation
+Lady's Smock,Restore Magicka,Breach,Increase Spell Power,Spell Critical
+Luminous Russula,Restore Health,Ravage Stamina,Maim,Hindrance
+Mountain Flower,Restore Health,Restore Stamina,Increase Armor,Maim
+Mudcrab Chitin,Increase Spell Resist,Increase Armor,Protection,Defile
+Namira's Rot,Spell Critical,Unstoppable,Invisible,Speed
+Nightshade,Ravage Health,Protection,Gradual Ravage Health,Defile
+Nirnroot,Ravage Health,Uncertainty,Enervation,Invisible
+Powdered Mother of Pearl,Speed,Protection,Lingering Health,Vitality
+Scrib Jelly,Ravage Magicka,Speed,Vulnerability,Lingering Health
+Spider Egg,Invisible,Hindrance,Lingering Health,Defile
+Stinkhorn,Ravage Health,Ravage Stamina,Fracture,Increase Weapon Power
+Torchbug Thorax,Fracture,Enervation,Detection,Vitality
+Vile Coagulant,Ravage Health,Restore Magicka,Protection,Timidity
+Violet Coprinus,Ravage Health,Ravage Magicka,Breach,Increase Spell Power
+Water Hyacinth,Restore Health,Spell Critical,Weapon Critical,Entrapment
+White Cap,Ravage Magicka,Increase Spell Resist,Cowardice,Detection
+Wormwood,Weapon Critical,Unstoppable,Detection,Hindrance
