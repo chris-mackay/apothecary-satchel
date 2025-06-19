@@ -20,6 +20,7 @@ elif game == "The Elder Scrolls IV: Oblivion":
     df = pd.read_csv("https://raw.githubusercontent.com/chris-mackay/apothecary-satchel/refs/heads/main/data_oblivion.csv")
     search_str = st.text_input("Filter ingredients", "")
 else:
+    st.link_button("Alchemy Simulator", "https://eso-hub.com/en/potion-maker")
     df = pd.read_csv("https://raw.githubusercontent.com/chris-mackay/apothecary-satchel/refs/heads/main/data_eso.csv")
     search_str = st.text_input("Filter ingredients", "")
 
