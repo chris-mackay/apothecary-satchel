@@ -1,0 +1,126 @@
+Name,Weight,Value,PrimaryEffect,SecondaryEffect,TertiaryEffect,QuaternaryEffect
+Small Kwama Egg,0.5,1,Restore Fatigue,,,
+Large Kwama Egg,2,2,Restore Fatigue,Paralyze,Frost Shield,Fortify Health
+Large Wrapped Corprusmeat,1,0,Drain Fatigue,Drain Health,Drain Magicka,
+Small Wrapped Corprusmeat,0.2,0,Drain Fatigue,Drain Health,Drain Magicka,
+Medium Wrapped Corprusmeat,0.5,0,Drain Fatigue,Drain Health,Drain Magicka,
+Wrapped Corprusmeat Hunk,0,0,Drain Fatigue,Drain Health,Drain Magicka,
+Large Corprusmeat Hunk,1,0,Drain Fatigue,Drain Health,Drain Magicka,
+Medium Corprusmeat Hunk,0.5,0,Drain Fatigue,Drain Health,Drain Magicka,
+Small Corprusmeat Hunk,0.2,0,Drain Fatigue,Drain Health,Drain Magicka,
+Adamantium Ore,50,300,Burden,Restore Magicka,Poison,Reflect
+Alit Hide,1,5,Drain Attribute,Resist Poison,Telekinesis,Detect Animal
+Ash Salts,0.1,25,Drain Attribute,Resist Magicka,Cure Blight Disease,Resist Magicka
+Ash Yam,0.5,1,Fortify Attribute,Fortify Attribute,Resist Common Disease,Detect Key
+Ampoule Pod,0.1,2,Water Walking,Paralyze,Detect Animal,Drain Attribute
+Bungler's Bane,0.5,1,Drain Attribute,Drain Attribute,Dispel,Drain Attribute
+Coda Flower,0.1,23,Drain Attribute,Levitate,Drain Attribute,Drain Health
+Hypha Facia,0.1,1,Drain Attribute,Drain Attribute,Drain Fatigue,Detect Enchantment
+Spore Pod,0.1,1,Drain Attribute,Drain Fatigue,Detect Key,Paralyze
+Bear Pelt,1,2,Drain Fatigue,Fortify Attribute,Resist Common Disease,Night Eye
+Ripened Belladonna Berries,0.1,5,Resist Magicka,Restore Magicka,Fortify Magicka,Drain Magicka
+Unripened Belladonna Berries,0.1,5,Resist Magicka,Restore Magicka,Fortify Magicka,Drain Magicka
+Bittergreen Petals,0.1,5,Restore Attribute,Invisibility,Drain Attribute,Drain Magicka
+Black Anther,0.1,2,Drain Attribute,Resist Fire,Drain Attribute,Light
+Black Lichen,0.1,2,Drain Attribute,Resist Frost,Drain Attribute,Cure Poison
+Bloat,0.1,5,Drain Magicka,Fortify Attribute,Fortify Attribute,Detect Animal
+Blood of an Innocent,0.1,25,Drain Attribute,Light,Cure Common Disease,Drain Magicka
+Bristleback Leather,1,2,Blind,Frost Damage,Resist Frost,Recall
+Bonemeal,0.2,2,Restore Attribute,Telekinesis,Drain Fatigue,Drain Attribute
+Bread,0.2,1,Restore Fatigue,,,
+Muffin,0.2,1,Restore Fatigue,,,
+Chokeweed,0.1,1,Drain Attribute,Restore Fatigue,Cure Common Disease,Drain Attribute
+Comberry,0.1,2,Drain Fatigue,Restore Magicka,Fire Shield,Reflect
+Violet Coprinus,0.5,1,Water Walking,Drain Fatigue,Poison,
+Corkbulb Root,0.1,5,Cure Paralyzation,Restore Health,Lightning Shield,Fortify Attribute
+Corprus weepings,0.1,50,Drain Fatigue,Fortify Attribute,Drain Attribute,Restore Health
+Crab Meat,0.5,1,Restore Fatigue,Resist Shock,Lightning Shield,Restore Attribute
+Daedra's Heart,1,200,Restore Magicka,Fortify Attribute,Drain Attribute,Night Eye
+Diamond,0.2,250,Drain Attribute,Invisibility,Reflect,Detect Key
+Emerald,0.2,150,Fortify Magicka,Restore Health,Drain Attribute,Drain Attribute
+Pearl,0.2,100,Drain Attribute,Dispel,Water Breathing,Resist Common Disease
+Raw Ebony,10,200,Drain Attribute,Cure Poison,Frost Shield,Restore Attribute
+Ruby,0.2,200,Drain Health,Feather,Restore Attribute,Drain Attribute
+Daedra Skin,0.2,200,Fortify Attribute,Cure Common Disease,Paralyze,Swift Swim
+Daedra's Heart,1,200,Restore Magicka,Fortify Attribute,Drain Attribute,Night Eye
+Diamond,0.2,250,Drain Attribute,Invisibility,Reflect,Detect Key
+Dreugh Wax,0.2,100,Fortify Attribute,Restore Attribute,Drain Attribute,Drain Attribute
+Durzog Meat,2,7,Fortify Attribute,Fortify Attribute,Blind,Damage Magicka
+Ectoplasm,0.1,10,Fortify Attribute,Detect Animal,Drain Attribute,Drain Health
+Emerald,0.2,150,Fortify Magicka,Restore Health,Drain Attribute,Drain Attribute
+Pinetear,0.2,50,Fortify Magicka,Restore Health,Drain Attribute,Drain Attribute
+Grahl Eyeball,1,15,Resist Frost,Night Eye,Drain Magicka,Fortify Attribute
+Flaming Eye of the Lightkeeper,1,15,Resist Frost,Night Eye,Drain Magicka,Fortify Attribute
+Fire Petal,0.1,2,Resist Fire,Drain Health,Spell Absorption,Paralyze
+Fire Salts,0.1,100,Drain Health,Fortify Attribute,Resist Frost,Fire Shield
+Frost Salts,0.1,75,Drain Attribute,Restore Magicka,Frost Shield,Resist Fire
+Ghoul Heart,0.5,150,Paralyze,Cure Poison,Fortify Attack,
+Gold Kanet,0.1,5,Drain Health,Burden,Drain Attribute,Restore Attribute
+Roland's Tear,0.1,5,Drain Health,Burden,Drain Attribute,Restore Attribute
+Golden Sedge Flowers,1,1,Drain Magicka,Fortify Attribute,Fortify Attack,Swift Swim
+Gravedust,0.1,1,Drain Attribute,Cure Common Disease,Drain Magicka,Restore Attribute
+Gravetar,0.1,5,Resist Frost,Drain Health,Fortify Fatigue,Drain Attribute
+Green Lichen,0.1,1,Fortify Attribute,Cure Common Disease,Drain Attribute,Drain Health
+Guar Hide,1,5,Drain Fatigue,Fortify Attribute,Restore Attribute,Fortify Attribute
+Girith's Guar Hide,1,5,Drain Fatigue,Fortify Attribute,Restore Attribute,Fortify Attribute
+Marsus' Guar Hide,1,5,Drain Fatigue,Fortify Attribute,Restore Attribute,Fortify Attribute
+Hackle-Lo Leaf,0.1,30,Restore Fatigue,Paralyze,Water Breathing,Restore Attribute
+Heartwood,1,200,Restore Magicka,Fortify Attribute,Drain Attribute,Weakness to Fire
+Heather,0.1,1,Restore Attribute,Feather,Drain Attribute,Drain Attribute
+Holly Berries,0.1,5,Resist Frost,Frost Shield,Frost Damage,Weakness to Fire
+Horker Tusk,0.1,5,Drain Skill,Fortify Attribute,Fortify Maximum Magicka,Detect Animal
+Horn Lily Bulb,1,1,Resist Paralysis,Drain Health,Restore Attribute,Restore Attribute
+Hound Meat,1,2,Restore Fatigue,Fortify Fatigue,Reflect,Detect Enchantment
+Human Flesh,1,1,Fortify Health,Drain Attribute,Drain Attribute,
+Heart of an Innocent,1,10,Restore Magicka,Fortify Attribute,Drain Attribute,Night Eye
+Kagouti Hide,1,2,Drain Fatigue,Fortify Attribute,Resist Common Disease,Night Eye
+Kresh Fiber,0.1,1,Restore Attribute,Fortify Attribute,Drain Magicka,Drain Attribute
+Kwama Cuttle,0.1,2,Resist Poison,Drain Fatigue,Water Breathing,Water Breathing
+Lloramor Spines,1,1,Spell Absorption,Invisibility,Poison,Detect Enchantment
+Marshmerrow,0.1,1,Restore Health,Detect Enchantment,Drain Attribute,Drain Fatigue
+Meadow Rye,1,1,Fortify Attribute,Damage Health,Restore Attribute,Drain Attribute
+Moon Sugar,0.1,50,Fortify Attribute,Dispel,Drain Attribute,Drain Attribute
+Muck,0.1,1,Drain Attribute,Detect Key,Drain Attribute,Cure Common Disease
+Netch Leather,1,1,Fortify Attribute,Fortify Attribute,Drain Attribute,Cure Paralyzation
+Nirthfly Stalks,1,1,Damage Health,Fortify Attribute,Restore Attribute,Drain Attribute
+Noble Sedge Flowers,1,1,Damage Health,Restore Attribute,Poison,Fortify Attribute
+Pearl,0.2,100,Drain Attribute,Dispel,Water Breathing,Resist Common Disease
+Racer Plumes,0.1,20,Drain Attribute,Levitate,,
+Rat Meat,1,1,Drain Magicka,Paralyze,Cure Poison,Resist Poison
+Raw Ebony,10,200,Drain Attribute,Cure Poison,Frost Shield,Restore Attribute
+Raw Glass,2,200,Drain Attribute,Drain Attribute,Drain Attribute,Fire Shield
+Raw Glass,2,200,Drain Attribute,Drain Attribute,Drain Attribute,Fire Shield
+Raw Stalhrim,5,300,Resist Frost,Frost Damage,Paralyze,Restore Health
+Red Lichen,0.1,25,Drain Attribute,Light,Cure Common Disease,Drain Magicka
+Resin,0.1,10,Restore Health,Restore Attribute,Burden,Resist Common Disease
+Roobrush,0.1,1,Drain Attribute,Fortify Attribute,Drain Health,Cure Poison
+Ruby,0.2,200,Drain Health,Feather,Restore Attribute,Drain Attribute
+Luminous Russula,0.2,1,Water Breathing,Drain Fatigue,Poison,
+Saltrice,0.1,1,Restore Fatigue,Fortify Magicka,Drain Attribute,Restore Health
+Scales,0.2,2,Drain Attribute,Water Walking,Restore Attribute,Swift Swim
+Scamp Skin,0.1,10,Drain Magicka,Cure Paralyzation,Restore Attribute,Restore Attribute
+Scathecraw,0.1,2,Drain Attribute,Cure Poison,Drain Health,Restore Attribute
+Scrap Metal,10,20,Drain Health,Lightning Shied,Resist Shock,Restore Attribute
+Scrib Cabbage,1,1,Drain Attribute,Damage Health,Restore Attribute,Fortify Attribute
+Scrib Jelly,0.1,10,Fortify Attribute,Cure Poison,Cure Blight Disease,Restore Attribute
+Meteor Slime,0.1,10,Fortify Attribute,Cure Poison,Cure Blight Disease,Restore Attribute
+Scrib Jerky,0.2,5,Restore Fatigue,Fortify Fatigue,Burden,Swift Swim
+Scuttle,0.1,10,Restore Fatigue,Fortify Fatigue,Feather,Telekinesis
+Shalk Resin,0.1,50,Drain Fatigue,Fortify Health,Drain Attribute,Fortify Attribute
+Sload Soap,0.1,50,Drain Attribute,Fortify Attribute,Fire Shield,Restore Attribute
+Snow Bear Pelt,1,2,Drain Fatigue,Fortify Attribute,Resist Common Disease,Night Eye
+Snow Wolf Pelt,1,2,Drain Fatigue,Fortify Attribute,Resist Common Disease,Night Eye
+Stoneflower Petals,0.1,1,Restore Attribute,Fortify Magicka,Drain Attribute,Fortify Attribute
+Sweetpulp,1,1,Paralyze,Levitate,Resist Paralysis,Restore Health
+Timsa-Come-By flowers,1,1,Dispel,Resist Paralysis,Drain Magicka,Restore Attribute
+Trama Root,0.1,10,Restore Attribute,Levitate,Paralyze,Drain Attribute
+Treated Bittergreen Petals,0.1,10,Restore Attribute,Drain Magicka,Paralyze,Invisibility
+Heart of the Udyrfrykte,5,300,Restore Magicka,Fortify Attribute,Drain Attribute,Night Eye
+Vampire Dust,0.1,500,Fortify Health,Fortify Attribute,Spell Absorption,Vampirism
+Void Salts,0.1,100,Restore Magicka,Spell Absorption,Paralyze,Drain Attribute
+Wickwheat,0.1,1,Restore Health,Fortify Attribute,Paralyze,Damage Attribute
+Willow Anther,0.1,10,Drain Attribute,Frost Shield,Cure Common Disease,Cure Paralyzation
+Heart of the Wolf,1,100,Restore Magicka,Fortify Attribute,Drain Attribute,Night Eye
+Wolf Pelt,1,2,Drain Fatigue,Fortify Attribute,Resist Common Disease,Night Eye
+Wolfsbane Petals,0.1,5,Restore Attribute,Invisibility,Drain Attribute,Drain Magicka
+Poison,0.1,0,Weakness to Poison,Damage Health,Damage Fatigue,Poison

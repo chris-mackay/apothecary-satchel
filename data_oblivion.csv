@@ -1,4 +1,4 @@
-Ingredient,PrimaryEffect,SecondaryEffect,TertiaryEffect,QuaternaryEffect
+Name,PrimaryEffect,SecondaryEffect,TertiaryEffect,QuaternaryEffect
 Alkanet Flower,Restore Intelligence,Resist Poison,Light,Damage Fatigue
 Alocasia Fruit,Damage Magicka,Light,Restore Fatigue,Restore Health
 Aloe Vera Leaves,Restore Fatigue,Restore Health,Damage Magicka,Invisibility
