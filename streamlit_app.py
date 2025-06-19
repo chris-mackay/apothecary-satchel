@@ -26,7 +26,7 @@ else:
 
 def highlight_match(val):
     if search_str.lower() in str(val).lower():
-        return 'background-color: lightgreen'
+        return 'background-color: rgba(139,230,139,0.4)'
     return ''
 
 mask = df.apply(lambda row: row.astype(str).str.contains(search_str, case=False, na=False)).any(axis=1)
