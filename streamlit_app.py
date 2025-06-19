@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from io import StringIO
 
 st.title('Apothecary Satchel')
 st.write('Filter and search all ingredients and effects in the following Elder Scrolls games')
