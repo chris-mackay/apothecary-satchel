@@ -24,7 +24,15 @@ else:
     df = pd.read_csv("https://raw.githubusercontent.com/chris-mackay/apothecary-satchel/refs/heads/main/data_eso.csv")
     search_str = st.text_input("Filter ingredients", "")
 
+def highlight_match(val):
+    if search_str.lower() in str(val).lower():
+        return 'background-color: lightgreen'
+    return ''
+
 mask = df.apply(lambda row: row.astype(str).str.contains(search_str, case=False, na=False)).any(axis=1)
 df = df[mask]
+
+if search_str != "":
+    df = df.style.applymap(highlight_match)
 
 st.write(df)
