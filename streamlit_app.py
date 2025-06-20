@@ -52,37 +52,30 @@ def highlight_match(val):
 
 if game != "The Elder Scrolls Online":
     if game == "The Elder Scrolls III: Morrowind":
-        max_weight = WEIGHT_MAX_MORROWIND
-        max_value = VALUE_MAX_MORROWIND
-
-        weights = st.slider("Select a weight range", 0.0, max_weight, (0.0, max_weight))
+        weights = st.slider("Select a weight range", 0.0, WEIGHT_MAX_MORROWIND, (0.0, WEIGHT_MAX_MORROWIND))
         st.write("Weight range", weights)
 
-        values = st.slider("Select a value range", 0.0, max_value, (0.0, max_value))
+        values = st.slider("Select a value range", 0.0, VALUE_MAX_MORROWIND, (0.0, VALUE_MAX_MORROWIND))
         st.write("Value range", values)
 
         df = df[df["Weight"].between(weights[0], weights[1])]
         df = df[df["Value"].between(values[0], values[1])]
-    elif game == "The Elder Scrolls IV: Oblivion":
-        max_weight = WEIGHT_MAX_OBLIVION
-        max_value = VALUE_MAX_OBLIVION
 
-        weights = st.slider("Select a weight range", 0.0, max_weight, (0.0, max_weight))
+    elif game == "The Elder Scrolls IV: Oblivion":
+        weights = st.slider("Select a weight range", 0.0, WEIGHT_MAX_OBLIVION, (0.0, WEIGHT_MAX_OBLIVION))
         st.write("Weight range", weights)
 
-        values = st.slider("Select a value range", 0.0, max_value, (0.0, max_value))
+        values = st.slider("Select a value range", 0.0, VALUE_MAX_OBLIVION, (0.0, VALUE_MAX_OBLIVION))
         st.write("Value range", values)
 
         df = df[df["Weight"].between(weights[0], weights[1])]
+
         df = df[df["Value"].between(values[0], values[1])]
     elif game == "The Elder Scrolls V: Skyrim":
-        max_weight = WEIGHT_MAX_SKYRIM
-        max_value = VALUE_MAX_SKYRIM
-
-        weights = st.slider("Select a weight range", 0.0, max_weight, (0.0, max_weight))
+        weights = st.slider("Select a weight range", 0.0, WEIGHT_MAX_SKYRIM, (0.0, WEIGHT_MAX_SKYRIM))
         st.write("Weight range", weights)
 
-        values = st.slider("Select a value range", 0.0, max_value, (0.0, max_value))
+        values = st.slider("Select a value range", 0.0, VALUE_MAX_SKYRIM, (0.0, VALUE_MAX_SKYRIM))
         st.write("Value range", values)
 
         df = df[df["Weight"].between(weights[0], weights[1])]
