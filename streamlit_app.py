@@ -42,12 +42,6 @@ def highlight_match(val):
         return 'background-color: rgba(139,230,139,0.4)'
     return ''
 
-mask = df.apply(lambda row: row.astype(str).str.contains(search_str, case=False, na=False)).any(axis=1)
-df = df[mask]
-
-if search_str != "":
-    df = df.style.applymap(highlight_match)
-
 if game != "The Elder Scrolls Online":
     weights = st.slider("Select a weight range", 0.0, 50.0, (0.0, 50.0))
     st.write("Weight range", weights)
@@ -57,5 +51,11 @@ if game != "The Elder Scrolls Online":
 
     df = df[df["Weight"].between(weights[0], weights[1])]
     df = df[df["Value"].between(values[0], values[1])]
+
+mask = df.apply(lambda row: row.astype(str).str.contains(search_str, case=False, na=False)).any(axis=1)
+df = df[mask]
+
+if search_str != "":
+    df = df.style.applymap(highlight_match)
 
 st.write(df)
