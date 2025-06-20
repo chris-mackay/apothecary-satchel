@@ -1,6 +1,14 @@
 import streamlit as st
 import pandas as pd
 
+WEIGHT_MAX_MORROWIND = 50.0
+WEIGHT_MAX_OBLIVION = 5.0
+WEIGHT_MAX_SKYRIM = 1.0
+
+VALUE_MAX_MORROWIND = 500.0
+VALUE_MAX_OBLIVION = 75.0
+VALUE_MAX_SKYRIM = 250.0
+
 st.title('Apothecary Satchel')
 st.write('Filter and search all ingredients and effects in the following Elder Scrolls games')
 
@@ -43,14 +51,42 @@ def highlight_match(val):
     return ''
 
 if game != "The Elder Scrolls Online":
-    weights = st.slider("Select a weight range", 0.0, 50.0, (0.0, 50.0))
-    st.write("Weight range", weights)
+    if game == "The Elder Scrolls III: Morrowind":
+        max_weight = WEIGHT_MAX_MORROWIND
+        max_value = VALUE_MAX_MORROWIND
 
-    values = st.slider("Select a value range", 0.0, 500.0, (0.0, 500.0))
-    st.write("Value range", values)
+        weights = st.slider("Select a weight range", 0.0, max_weight, (0.0, max_weight))
+        st.write("Weight range", weights)
 
-    df = df[df["Weight"].between(weights[0], weights[1])]
-    df = df[df["Value"].between(values[0], values[1])]
+        values = st.slider("Select a value range", 0.0, max_value, (0.0, max_value))
+        st.write("Value range", values)
+
+        df = df[df["Weight"].between(weights[0], weights[1])]
+        df = df[df["Value"].between(values[0], values[1])]
+    elif game == "The Elder Scrolls IV: Oblivion":
+        max_weight = WEIGHT_MAX_OBLIVION
+        max_value = VALUE_MAX_OBLIVION
+
+        weights = st.slider("Select a weight range", 0.0, max_weight, (0.0, max_weight))
+        st.write("Weight range", weights)
+
+        values = st.slider("Select a value range", 0.0, max_value, (0.0, max_value))
+        st.write("Value range", values)
+
+        df = df[df["Weight"].between(weights[0], weights[1])]
+        df = df[df["Value"].between(values[0], values[1])]
+    elif game == "The Elder Scrolls V: Skyrim":
+        max_weight = WEIGHT_MAX_SKYRIM
+        max_value = VALUE_MAX_SKYRIM
+
+        weights = st.slider("Select a weight range", 0.0, max_weight, (0.0, max_weight))
+        st.write("Weight range", weights)
+
+        values = st.slider("Select a value range", 0.0, max_value, (0.0, max_value))
+        st.write("Value range", values)
+
+        df = df[df["Weight"].between(weights[0], weights[1])]
+        df = df[df["Value"].between(values[0], values[1])]
 
 mask = df.apply(lambda row: row.astype(str).str.contains(search_str, case=False, na=False)).any(axis=1)
 df = df[mask]
