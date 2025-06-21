@@ -1,0 +1,78 @@
+Name,Weight,Value,Effect
+Aloe,0.25,9,Heal Health
+Amber,0.25,100,Resist Fire
+Bamboo,0.5,6,Heal Stamina
+Basilisk's eye,0.5,26,Cure Paralysis
+Big tooth,0.5,8,Spell Resistance
+Black poppy,0.25,12,Damage Spell Points
+Black rose,0.25,10,Silence
+Brass,0.5,8,Jumping
+Cactus,0.5,8,Resist Magicka
+Clover,0.25,5,Increase Luck
+Copper,0.5,15,Detect Magic
+Daedra's Heart,1,500,Increase Willpower
+Diamond,0.25,500,Spell Resistance
+Dragon Scales,3,375,Spell Absorption
+Ectoplasm,0.25,60,Etherealness
+Elixir vitae,0.25,30,
+Emerald,0.25,425,Chameleon Normal
+Fairy dragon's scales,2,90,Spell Reflection
+Fig,0.25,8,Resist Fire
+Ghoul's tongue,0.25,30,Tongues
+Giant scorpion stinger,1.5,25,Damage Health
+Giant's blood,0.25,25,Diminution
+Gingko leaves,0.25,12,Cure Disease
+Gold,0.5,20,Charm Mortal
+Golden poppy,0.25,10,Charm Mortal
+Gorgon snake,0.5,120,Climbing
+Green berries,0.5,4,Damage Health
+Green leaves,0.25,2,Jumping
+Gryphon's feather,0.25,40,Slowfall
+Holy Relic,0.5,400,Dispel Magic
+Ichor,0.25,20,
+Iron,0.5,6,Slowfall
+Ivory,0.5,13,Resist Cold
+Jade,0.25,10,Water Breathing
+Lead,0.5,5,Slowfall
+Lich dust,0.25,350,Increase Intelligence
+Lodestone,0.5,15,Jumping
+Malachite,0.25,25,Silence
+Mercury,0.25,16,Increase Speed
+Mummy wrappings,0.5,40,Detect Treasure
+Nectar,0.25,15,
+Nymph hair,0.25,100,Increase Personality
+Orc's blood,0.25,20,Increase Strength
+Palm,0.5,4,Levitate
+Pearl,0.25,150,Water Breathing
+Pine branch,1,4,Spell Resistance
+Platinum,0.5,30,Invisibility Normal
+Pure water,0.25,25,
+Rain water,0.25,10,
+Red berries,0.5,4,Resist Fire
+Red flowers,0.25,4,Damage Stamina
+Red poppy,0.25,8,Drain Strength
+Red rose,0.25,8,Detect Magic
+Root bulb,0.25,4,Regenerate Health
+Root tendrils,0.25,2,Diminution
+Ruby,0.25,250,Spell Absorption
+Saint's hair,0.25,200,Cure Disease
+Sapphire,0.25,375,Spell Reflection
+Silver,0.5,12,Cure Magic
+Small scorpion stinger,0.25,12,Damage Health
+Small tooth,0.25,12,Spell Resistance
+Snake venom,0.25,10,Spell Resistance
+Spider's venom,0.25,22,Paralysis
+Sulphur,0.25,10,Resist Fire
+Tin,0.5,4,Free Action
+Troll's blood,0.25,20,Regenerate Health
+Turquoise,0.25,50,Water Walking
+Twigs,0.5,2,Slowfall
+Unicorn horn,1.5,200,Detect Enemy
+Wereboar's tusk,1,28,Increase Strength
+Werewolf's blood,0.25,25,Cure Magic
+White poppy,0.25,8,Drain Intelligence
+White rose,0.25,8,Increase Intelligence
+Wraith essence,0.25,80,Drain Willpower
+Yellow berries,0.5,4,Increase Speed
+Yellow flowers,0.25,4,Chameleon Normal
+Yellow rose,0.25,8,Lycanthropy
