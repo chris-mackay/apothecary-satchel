@@ -42,6 +42,7 @@ elif game == "The Elder Scrolls V: Skyrim":
     search_str = st.text_input("Filter ingredients", "")
 else:
     st.link_button("Alchemy Simulator", "https://eso-hub.com/en/potion-maker")
+    st.link_button("Market Trade Center", "https://eso-hub.com/en/trading?category=4&sort=last_seen_at&sortdir=desc&server=NA")
     df = pd.read_csv("https://raw.githubusercontent.com/chris-mackay/apothecary-satchel/refs/heads/main/data_eso.csv")
     search_str = st.text_input("Filter ingredients", "")
 
