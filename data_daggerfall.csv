@@ -1,4 +1,4 @@
-Name,Weight,Value,Effect
+Reagent,Weight,Value,Effect
 Aloe,0.25,9,Heal Health
 Amber,0.25,100,Resist Fire
 Bamboo,0.5,6,Heal Stamina

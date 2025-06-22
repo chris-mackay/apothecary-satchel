@@ -1,4 +1,4 @@
-Name,Weight,Value,PrimaryEffect,SecondaryEffect,TertiaryEffect,QuaternaryEffect
+Reagent,Weight,Value,PrimaryEffect,SecondaryEffect,TertiaryEffect,QuaternaryEffect
 Adamantium Ore,50,300,Burden,Restore Magicka,Poison,Reflect
 Alit Hide,1,5,Drain Attribute,Resist Poison,Telekinesis,Detect Animal
 Ampoule Pod,0.1,2,Water Walking,Paralyze,Detect Animal,Drain Attribute

@@ -1,4 +1,4 @@
-Name,Weight,Value,PrimaryEffect,SecondaryEffect,TertiaryEffect,QuaternaryEffect
+Reagent,Weight,Value,PrimaryEffect,SecondaryEffect,TertiaryEffect,QuaternaryEffect
 Abecean Longfin,0.5,15,Weakness to Frost,Fortify Sneak,Weakness to Poison,Fortify Restoration
 Aloe Vera Leaves,0.1,1,Restore Health,Restore Stamina,Damage Magicka,Invisibility
 Ancestor Moth Wing,0.1,2,Damage Stamina,Fortify Conjuration,Damage Magicka Regen,Fortify Enchanting
