@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
 
-DAGGERFALL = "The Elder Scrolls II: Daggerfall"
-MORROWIND = "The Elder Scrolls III: Morrowind"
-OBLIVION = "The Elder Scrolls IV: Oblivion"
-SKYRIM = "The Elder Scrolls V: Skyrim"
-ELDER_SCROLLS_ONLINE = "The Elder Scrolls Online"
+DAGGERFALL = "Elder Scrolls II: Daggerfall"
+MORROWIND = "Elder Scrolls III: Morrowind"
+OBLIVION = "Elder Scrolls IV: Oblivion"
+SKYRIM = "Elder Scrolls V: Skyrim"
+ELDER_SCROLLS_ONLINE = "Elder Scrolls Online"
 
 WEIGHT_MAX_DAGGERFALL = 3.0
 WEIGHT_MAX_MORROWIND = 50.0
@@ -20,18 +20,18 @@ VALUE_MAX_SKYRIM = 250.0
 st.title('Apothecary Satchel')
 st.write('Filter and search all reagents and effects in the main line Elder Scrolls games')
 
-col1, col2, col3 = st.columns([1.08,1,1])
+col1, col2, col3 = st.columns([1,1,1])
 
 with col1:
     st.link_button(DAGGERFALL, "https://en.uesp.net/wiki/Daggerfall:Ingredients")
-    st.link_button(MORROWIND, "https://en.uesp.net/wiki/Morrowind:Ingredients")
-
-with col2:
-    st.link_button(OBLIVION, "https://en.uesp.net/wiki/Oblivion:Ingredients")
     st.link_button(SKYRIM, "https://en.uesp.net/wiki/Skyrim:Ingredients")
 
-with col3:
+with col2:
+    st.link_button(MORROWIND, "https://en.uesp.net/wiki/Morrowind:Ingredients")
     st.link_button(ELDER_SCROLLS_ONLINE, "https://eso-hub.com/en/alchemy-reagents-and-solvents")
+
+with col3:
+    st.link_button(OBLIVION, "https://en.uesp.net/wiki/Oblivion:Ingredients")
 
 game = st.radio(
     "Select game to view reagents",
