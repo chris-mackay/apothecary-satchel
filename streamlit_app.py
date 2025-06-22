@@ -34,7 +34,7 @@ with col3:
     st.link_button(ELDER_SCROLLS_ONLINE, "https://eso-hub.com/en/alchemy-reagents-and-solvents")
 
 game = st.radio(
-    "Select game to view ingredients",
+    "Select game to view reagents",
     [DAGGERFALL, 
      MORROWIND, 
      OBLIVION, 
@@ -59,7 +59,7 @@ elif game == ELDER_SCROLLS_ONLINE:
     st.link_button("Market Trade Center", "https://eso-hub.com/en/trading?category=4&sort=last_seen_at&sortdir=desc&server=NA")
     df = pd.read_csv("https://raw.githubusercontent.com/chris-mackay/apothecary-satchel/refs/heads/main/data_eso.csv")
 
-search_str = st.text_input("Filter ingredients", "")
+search_str = st.text_input("Filter reagents", "")
 
 def highlight_match(val):
     if search_str.lower() in str(val).lower():
