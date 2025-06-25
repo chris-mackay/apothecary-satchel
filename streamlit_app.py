@@ -7,18 +7,8 @@ OBLIVION = "Elder Scrolls IV: Oblivion"
 SKYRIM = "Elder Scrolls V: Skyrim"
 ELDER_SCROLLS_ONLINE = "Elder Scrolls Online"
 
-WEIGHT_MAX_DAGGERFALL = 3.0
-WEIGHT_MAX_MORROWIND = 50.0
-WEIGHT_MAX_OBLIVION = 5.0
-WEIGHT_MAX_SKYRIM = 1.0
-
-VALUE_MAX_DAGGERFALL = 500.0
-VALUE_MAX_MORROWIND = 500.0
-VALUE_MAX_OBLIVION = 75.0
-VALUE_MAX_SKYRIM = 250.0
-
 st.title('Apothecary Satchel')
-st.write('Filter and search all reagents and effects in the main line Elder Scrolls games')
+st.markdown('**Filter and search all reagents and effects in the main line Elder Scrolls games**')
 
 col1, col2, col3 = st.columns([1,1,1])
 
@@ -67,33 +57,14 @@ def highlight_match(val):
     return ''
 
 if game != ELDER_SCROLLS_ONLINE:
-    if game == DAGGERFALL:
-        weights = st.slider("Select a weight range", 0.0, WEIGHT_MAX_DAGGERFALL, (0.0, WEIGHT_MAX_DAGGERFALL))
-        st.write("Weight range", weights)
+    max_weight = float(df['Weight'].max())
+    max_value = float(df['Value'].max())
+    
+    weights = st.slider("Select a weight range", 0.0, max_weight, (0.0, max_weight))
+    st.write("Weight range", weights)
 
-        values = st.slider("Select a value range", 0.0, VALUE_MAX_DAGGERFALL, (0.0, VALUE_MAX_DAGGERFALL))
-        st.write("Value range", values)
-
-    elif game == MORROWIND:
-        weights = st.slider("Select a weight range", 0.0, WEIGHT_MAX_MORROWIND, (0.0, WEIGHT_MAX_MORROWIND))
-        st.write("Weight range", weights)
-
-        values = st.slider("Select a value range", 0.0, VALUE_MAX_MORROWIND, (0.0, VALUE_MAX_MORROWIND))
-        st.write("Value range", values)
-
-    elif game == OBLIVION:
-        weights = st.slider("Select a weight range", 0.0, WEIGHT_MAX_OBLIVION, (0.0, WEIGHT_MAX_OBLIVION))
-        st.write("Weight range", weights)
-
-        values = st.slider("Select a value range", 0.0, VALUE_MAX_OBLIVION, (0.0, VALUE_MAX_OBLIVION))
-        st.write("Value range", values)
-
-    elif game == SKYRIM:
-        weights = st.slider("Select a weight range", 0.0, WEIGHT_MAX_SKYRIM, (0.0, WEIGHT_MAX_SKYRIM))
-        st.write("Weight range", weights)
-
-        values = st.slider("Select a value range", 0.0, VALUE_MAX_SKYRIM, (0.0, VALUE_MAX_SKYRIM))
-        st.write("Value range", values)
+    values = st.slider("Select a value range", 0.0, max_value, (0.0, max_value))
+    st.write("Value range", values)
 
     df = df[df["Weight"].between(weights[0], weights[1])]
     df = df[df["Value"].between(values[0], values[1])]
