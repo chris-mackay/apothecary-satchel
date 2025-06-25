@@ -49,7 +49,7 @@ elif game == ELDER_SCROLLS_ONLINE:
     st.link_button("Market Trade Center", "https://eso-hub.com/en/trading?category=4&sort=last_seen_at&sortdir=desc&server=NA")
     df = pd.read_csv("https://raw.githubusercontent.com/chris-mackay/apothecary-satchel/refs/heads/main/data_eso.csv")
 
-search_str = st.text_input("Filter reagents", "")
+search_str = st.text_input("Filter reagents :mag:", "")
 
 def highlight_match(val):
     if search_str.lower() in str(val).lower():
@@ -60,10 +60,10 @@ if game != ELDER_SCROLLS_ONLINE:
     max_weight = float(df['Weight'].max())
     max_value = float(df['Value'].max())
     
-    weights = st.slider("Select a weight range", 0.0, max_weight, (0.0, max_weight))
+    weights = st.slider("Select a weight range :scales:", 0.0, max_weight, (0.0, max_weight))
     st.write("Weight range", weights)
 
-    values = st.slider("Select a value range", 0.0, max_value, (0.0, max_value))
+    values = st.slider("Select a value range :moneybag:", 0.0, max_value, (0.0, max_value))
     st.write("Value range", values)
 
     df = df[df["Weight"].between(weights[0], weights[1])]
